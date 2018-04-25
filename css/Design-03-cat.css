@@ -38,6 +38,9 @@ body {
     background: #fbf8f1;
     border-radius: 100% 10% 50% 0% ;
     transition: transform .8s linear;
+    -moz-transition: transform .8s linear;
+    -webkit-transition: transform .8s linear;
+    -o-transition: transform .8s linear;
 }
 .ear-wrap .right {
     left: auto;
@@ -45,6 +48,9 @@ body {
     border-radius: 10% 100% 0% 50%;
     background: #f1ac2b;
     transition: transform .8s linear;
+    -moz-transition: transform .8s linear;
+    -webkit-transition: transform .8s linear;
+    -o-transition: transform .8s linear;
 }
 /* 头发 */
 .hair {
@@ -92,6 +98,9 @@ body {
     left: 50%;
     margin-left: -23px;
     transition: transform 1s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -moz-transition: transform 1s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -webkit-transition: transform 1s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -o-transition: transform 1s cubic-bezier(0.59, 0.65, 0.38, 0.49);
 }
 .eye-bottom {
     height: 50px;
@@ -102,6 +111,9 @@ body {
     border-top: 2px solid #46240b;
     background: #f6f7f2;
     transition: margin-top .8s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -moz-transition: margin-top .8s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -webkit-transition: margin-top .8s cubic-bezier(0.59, 0.65, 0.38, 0.49);
+    -o-transition: margin-top .8s cubic-bezier(0.59, 0.65, 0.38, 0.49);
 }
 
 .eye-wrap .right {
@@ -118,6 +130,9 @@ body {
     border-radius: 50% 50% 50% 50%;
     opacity: 0.0;
     transition: opacity .8s cubic-bezier(0.59, 0.65, 0.38, 0.49),background .8s;
+    -moz-transition: opacity .8s cubic-bezier(0.59, 0.65, 0.38, 0.49),background .8s;
+    -webkit-transition: opacity .8s cubic-bezier(0.59, 0.65, 0.38, 0.49),background .8s;
+    -o-transition: opacity .8s cubic-bezier(0.59, 0.65, 0.38, 0.49),background .8s;
 }
 /* 鼻子 */
 .nose {
@@ -150,6 +165,9 @@ body {
     position: absolute;
     left: 0;
     transition: border-radius .5s linear;
+    -moz-transition: border-radius .5s linear;
+    -webkit-transition: border-radius .5s linear;
+    -o-transition: border-radius .5s linear;
 }
 .mouth-wrap .right {
     border-bottom: 4px solid #000;
