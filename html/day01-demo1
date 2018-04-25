@@ -1,1 +1,18 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/animation.js"></script>
+    <link rel="stylesheet" href="css/first.css">
+</head>
+<body>
+<div class="content">
+    <span class="span">前端学院</span>
+    <p>
+        <span class="spantwo"></span>
+    </p>
+    <button class="btn" data-checked="false" onclick="change()">切换样式</button>
+</div>
+</body>
+</html>
