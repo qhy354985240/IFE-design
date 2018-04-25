@@ -1,1 +1,33 @@
-
+div.content{
+    width: 90px;
+    margin: 200px auto;
+    text-align: center;
+}
+button.btn{
+    border-radius: 8px;
+    background-color: #fff;
+    border-width: 1px;
+    padding: 5px 15px;
+    box-shadow: 0 1px #999;
+    outline: none;
+    margin-top: 10px;
+}
+div.content .span{
+    display: block;
+    padding: 20px 10px;
+    transition: color .2s;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+}
+div.content .spantwo{
+    display: block;
+    width: 90px;
+    height: 3px;
+    transform: scaleX(0);
+    background-color:#1dc48f;
+    transition: transform .7s ease-in-out;
+    -moz-transition: transform .7s ease-in-out;
+    -webkit-transition: transform .7s ease-in-out;
+    -o-transition: transform .7s ease-in-out;
+}
