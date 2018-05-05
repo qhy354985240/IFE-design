@@ -27,7 +27,7 @@ div.content .spantwo{
     transform: scaleX(0);
     background-color:#1dc48f;
     transition: transform .7s ease-in-out;
-    -moz-transition: transform .7s ease-in-out;
-    -webkit-transition: transform .7s ease-in-out;
-    -o-transition: transform .7s ease-in-out;
+    -moz-transition: -moz-transform .7s ease-in-out;
+    -webkit-transition: -webkit-transform .7s ease-in-out;
+    -o-transition: -o-transform .7s ease-in-out;
 }
