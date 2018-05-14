@@ -30,7 +30,7 @@
         }
         .simg1 {
             margin-left: -270px;
-            background: url("../img/timg%20(5).jpg");
+            background: url("../img/timg5.jpg");
         }
         .simg2 {
             margin-left: -160px;
@@ -38,15 +38,15 @@
         }
         .simg3 {
             margin-left: -50px;
-            background: url("../img/timg%20(2).jpg");
+            background: url("../img/timg2.jpg");
         }
         .simg4 {
             margin-left: 60px;
-            background: url("../img/timg%20(3).jpg");
+            background: url("../img/timg3.jpg");
         }
         .simg5 {
             margin-left: 170px;
-            background: url("../img/timg%20(4).jpg");
+            background: url("../img/timg4.jpg");
         }
         .img-content label:hover{
             filter: brightness(110%);
