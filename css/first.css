@@ -15,10 +15,10 @@
         div.content .span{
             display: block;
             padding: 20px 10px;
-            transition: color .2s;
-            -moz-transition: color .2s;
             -webkit-transition: color .2s;
+            -moz-transition: color .2s;
             -o-transition: color .2s;
+            transition: color .2s;
         }
         div.content .spantwo{
             display: inline-block;
@@ -26,10 +26,10 @@
             height: 3px;
             padding: 0;
             background-color:#1dc48f;
-            transition: padding 1s linear;
-            -moz-transition: padding 1s linear;
             -webkit-transition: padding 1s linear;
+            -moz-transition: padding 1s linear;
             -o-transition: padding 1s linear;
+            transition: padding 1s linear;
         }
         div.content p{
             width: 90px;
