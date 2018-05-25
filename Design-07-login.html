@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>使用 animate.css 制作流畅交互动效</title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/Design-07.js"></script>
+    <link rel="stylesheet" href="css/Design-07.css">
+</head>
+<body>
+<section class="site-container">
+    <section class="card">
+        <h3>Login</h3>
+        <form>
+            <div class="form__wrapper" data-wow-delay="0.5s">
+                <input type="email" class="form__input" id="email" name="email">
+                <label class="form__label" for="email">
+                    <span class="form__label__content f1">Email</span>
+                </label>
+            </div>
+            <div class="form__wrapper" data-wow-delay="0.6s">
+                <input type="password" class="form__input" id="password" name="password">
+                <label class="form__label" for="password">
+                    <span class="form__label__content f2">Password</span>
+                </label>
+            </div>
+            <div class="form__wrapper__submit pulse infinite" data-wow-delay="0.7s">
+                <div class="form__input__submit">
+                    <button type="submit" name="submit" class="btn">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</section>
+</body>
+</html>
