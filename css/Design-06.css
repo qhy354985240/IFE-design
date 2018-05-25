@@ -30,7 +30,7 @@
         }
         .simg1 {
             margin-left: -270px;
-            background: url("../img/timg5.jpg");
+            background: url("../img/time5.jpg");
         }
         .simg2 {
             margin-left: -160px;
@@ -42,11 +42,11 @@
         }
         .simg4 {
             margin-left: 60px;
-            background: url("../img/timg3.jpg");
+            background: url("../img/time3.jpg");
         }
         .simg5 {
             margin-left: 170px;
-            background: url("../img/timg4.jpg");
+            background: url("../img/time4.jpg");
         }
         .img-content label:hover{
             filter: brightness(110%);
