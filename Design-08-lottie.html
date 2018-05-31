@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No.8</title>
+    <style>
+        body{
+            font-size: 62.5%;
+        }
+        div {
+            width: 50em;
+            height: 50em;
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+<header></header>
+<div id="animation"></div>
+</div>
+<script src="js/lottie.js"></script>
+<script>
+    bodymovin.loadAnimation({
+        path:'json/dat.json',
+        loop:true,
+        autoplay:true,
+        renderer:'svg',
+        container:document.getElementById('animation')
+    });
+</script>
+</body>
+
+</html>
